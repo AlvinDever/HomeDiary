@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'assets/css/googlefontall.css';
+@import 'assets/css/googlefont.css';
+@import 'assets/global/plugins/font-awesome/css/font-awesome.min.css';
+@import 'assets/global/plugins/simple-line-icons/simple-line-icons.min.css';
+@import 'assets/global/plugins/bootstrap/css/bootstrap.min.css';
+@import 'assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css';
+@import 'assets/global/plugins/bootstrap-daterangepicker/daterangepicker.min.css';
+@import 'assets/global/plugins/morris/morris.css';
+@import 'assets/global/plugins/fullcalendar/fullcalendar.min.css';
+@import 'assets/global/plugins/jqvmap/jqvmap/jqvmap.css';
+@import 'assets/global/css/components.min.css';
+@import 'assets/global/css/plugins.min.css';
+@import 'assets/layouts/layout5/css/layout.min.css';
+@import 'assets/layouts/layout5/css/custom.min.css';
