@@ -12,7 +12,8 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { Page1Component } from './components/page1/page1.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
-import { BreadcrumbsComponent } from './components/breadcrumbs/breadcrumbs.component';  /*自定义的模块*/
+import { BreadcrumbsComponent } from './components/breadcrumbs/breadcrumbs.component';
+import { ContactsComponent } from './components/contacts/contacts.component';  /*自定义的模块*/
 
 
 /*@NgModule装饰器将AppModule标记为 Angular 模块类（也叫NgModule类）。
@@ -20,7 +21,7 @@ import { BreadcrumbsComponent } from './components/breadcrumbs/breadcrumbs.compo
 
 @NgModule({
   declarations: [    /*引入当前项目运行的的组件  自定义组件都需要引入并且在这个里面配制*/
-    AppComponent, HeaderComponent, FooterComponent, Page1Component, SidebarComponent, BreadcrumbsComponent
+    AppComponent, HeaderComponent, FooterComponent, Page1Component, SidebarComponent, BreadcrumbsComponent, ContactsComponent
   ],
   imports: [  /*当前的项目依赖哪些模块*/
     BrowserModule
