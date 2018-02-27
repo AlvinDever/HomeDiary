@@ -13,8 +13,9 @@ import { FooterComponent } from './components/footer/footer.component';
 import { Page1Component } from './components/page1/page1.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { BreadcrumbsComponent } from './components/breadcrumbs/breadcrumbs.component';
-import { Con;
-import { JobsComponent } from './components/jobs/jobs.component'tactsComponent } from './components/contacts/contacts.component';  /*自定义的模块*/
+import { ContactsComponent} from './components/contacts/contacts.component';
+import { JobsComponent } from './components/jobs/jobs.component';
+ /*自定义的模块*/
 
 
 /*@NgModule装饰器将AppModule标记为 Angular 模块类（也叫NgModule类）。
