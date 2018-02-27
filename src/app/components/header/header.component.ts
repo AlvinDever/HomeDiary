@@ -21,7 +21,7 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit() {  /*生命周期函数  加载触发的方法*/
     this.pageTitle = 'Home-Draiy';
-    this.menus = ['Dashboard', 'To-Do', 'Property', 'Consume', 'More'];
+    this.menus = ['Dashboard', 'To-Do', 'Property', 'Consume', 'Job', 'More'];
     this.menu1 = 'Dashboard';
     this.msg = '数据';
   }
