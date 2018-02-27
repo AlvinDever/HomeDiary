@@ -13,14 +13,15 @@ import { FooterComponent } from './components/footer/footer.component';
 import { Page1Component } from './components/page1/page1.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { BreadcrumbsComponent } from './components/breadcrumbs/breadcrumbs.component';
-import { ContactsComponent } from './components/contacts/contacts.component';  /*自定义的模块*/
+import { Con;
+import { JobsComponent } from './components/jobs/jobs.component'tactsComponent } from './components/contacts/contacts.component';  /*自定义的模块*/
 
 
 /*@NgModule装饰器将AppModule标记为 Angular 模块类（也叫NgModule类）。
  @NgModule接受一个元数据对象，告诉 Angular 如何编译和启动应用。*/
 
 @NgModule({
-  declarations: [    /*引入当前项目运行的的组件  自定义组件都需要引入并且在这个里面配制*/
+  declarations: [    /*引入当, JobsComponent前项目运行的的组件  自定义组件都需要引入并且在这个里面配制*/
     AppComponent, HeaderComponent, FooterComponent, Page1Component, SidebarComponent, BreadcrumbsComponent, ContactsComponent
   ],
   imports: [  /*当前的项目依赖哪些模块*/
